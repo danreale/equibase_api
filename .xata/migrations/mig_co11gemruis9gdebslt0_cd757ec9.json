@@ -1,0 +1,16 @@
+{
+  "id": "mig_co11gemruis9gdebslt0",
+  "parentID": "mig_co11gak8e4aud9hfgch0",
+  "checksum": "1:cd757ec979552a8a331c05afc085199f0ca01f95732a469c5d6a8089cf849ae2",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "state_providence",
+          "type": "string"
+        },
+        "table": "tracks"
+      }
+    }
+  ]
+}

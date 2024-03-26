@@ -1,0 +1,16 @@
+{
+  "id": "mig_co11gak8e4aud9hfgch0",
+  "parentID": "mig_co11g5k8e4aud9hfgcg0",
+  "checksum": "1:ec7976fc2dba03eccbc7efc4d02f7f892cd78c3199437bab5fef6e18595ce462",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "track_description",
+          "type": "string"
+        },
+        "table": "tracks"
+      }
+    }
+  ]
+}

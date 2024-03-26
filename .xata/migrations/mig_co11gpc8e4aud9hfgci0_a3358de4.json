@@ -1,0 +1,16 @@
+{
+  "id": "mig_co11gpc8e4aud9hfgci0",
+  "parentID": "mig_co11gn6ruis9gdebsm0g",
+  "checksum": "1:a3358de46af30b4d4d1c9127034e9954bab4af698296d8971e3093c29a66cd41",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "training_center_name",
+          "type": "string"
+        },
+        "table": "training_centers"
+      }
+    }
+  ]
+}

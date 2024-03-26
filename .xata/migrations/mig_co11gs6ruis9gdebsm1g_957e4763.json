@@ -1,0 +1,16 @@
+{
+  "id": "mig_co11gs6ruis9gdebsm1g",
+  "parentID": "mig_co11gpc8e4aud9hfgci0",
+  "checksum": "1:957e4763ba5fd3a39643c6f90818fbcf13736b528deae26784e4ca9c207aa12b",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "state_providence",
+          "type": "string"
+        },
+        "table": "training_centers"
+      }
+    }
+  ]
+}

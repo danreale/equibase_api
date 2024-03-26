@@ -1,0 +1,11 @@
+{
+  "id": "mig_co11ftc8e4aud9hfgce0",
+  "checksum": "1:cc1c0f26105324be5c679cfa0584d2df3bdf40de92779b1bed6ad9dc09aaa327",
+  "operations": [
+    {
+      "addTable": {
+        "table": "tracks"
+      }
+    }
+  ]
+}
