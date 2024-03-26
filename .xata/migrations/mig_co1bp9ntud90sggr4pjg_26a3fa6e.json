@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1bp9ntud90sggr4pjg",
+  "parentID": "mig_co1bp71f6ohsuvvhga40",
+  "checksum": "1:26a3fa6ee4ecb7b9e99da9c5b988f876fff0ef69adc8444cc2a1c2b25cf82d09",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "string"
+        },
+        "table": "countries"
+      }
+    }
+  ]
+}

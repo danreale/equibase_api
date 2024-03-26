@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1bp4pf6ohsuvvhga30",
+  "parentID": "mig_co1bp11f6ohsuvvhga20",
+  "checksum": "1:06ce9934e9a2d0803a724f3efd3c4759186bfceee0b92ae9fe3d63adc20a34df",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "country_code",
+          "type": "string"
+        },
+        "table": "countries"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1bp71f6ohsuvvhga40",
+  "parentID": "mig_co1bp4pf6ohsuvvhga30",
+  "checksum": "1:21409b959370353f93d434570e15fcc72aa27733f471d44d3bdf947289099ea3",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "state_providence",
+          "type": "string"
+        },
+        "table": "countries"
+      }
+    }
+  ]
+}

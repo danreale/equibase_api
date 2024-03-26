@@ -25,6 +25,28 @@ const tables = [
       { name: "state_providence", type: "string" },
     ],
   },
+  {
+    name: "about_distance_indicator",
+    columns: [
+      { name: "code", type: "string" },
+      { name: "description", type: "string" },
+    ],
+  },
+  {
+    name: "guaranteed_indicators",
+    columns: [
+      { name: "code", type: "string" },
+      { name: "description", type: "string" },
+    ],
+  },
+  {
+    name: "countries",
+    columns: [
+      { name: "country_code", type: "string" },
+      { name: "state_providence", type: "string" },
+      { name: "description", type: "string" },
+    ],
+  },
 ] as const;
 
 export type SchemaTables = typeof tables;
@@ -36,9 +58,21 @@ export type TracksRecord = Tracks & XataRecord;
 export type TrainingCenters = InferredTypes["training_centers"];
 export type TrainingCentersRecord = TrainingCenters & XataRecord;
 
+export type AboutDistanceIndicator = InferredTypes["about_distance_indicator"];
+export type AboutDistanceIndicatorRecord = AboutDistanceIndicator & XataRecord;
+
+export type GuaranteedIndicators = InferredTypes["guaranteed_indicators"];
+export type GuaranteedIndicatorsRecord = GuaranteedIndicators & XataRecord;
+
+export type Countries = InferredTypes["countries"];
+export type CountriesRecord = Countries & XataRecord;
+
 export type DatabaseSchema = {
   tracks: TracksRecord;
   training_centers: TrainingCentersRecord;
+  about_distance_indicator: AboutDistanceIndicatorRecord;
+  guaranteed_indicators: GuaranteedIndicatorsRecord;
+  countries: CountriesRecord;
 };
 
 const DatabaseClient = buildClient();
