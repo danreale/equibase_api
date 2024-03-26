@@ -1,6 +1,5 @@
 import { LoaderFunctionArgs } from "@remix-run/node";
 import { Form, useLoaderData, useSearchParams } from "@remix-run/react";
-import { Tracks } from "src/xata";
 import { getAllTraingCenters, getTrainingCenterSearch } from "~/data/db.server";
 import { DataGrid } from "@mui/x-data-grid";
 import Header from "~/components/Header";

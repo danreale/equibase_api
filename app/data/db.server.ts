@@ -47,3 +47,41 @@ export async function getTrainingCenterSearch(query: string) {
     .getAll();
   return data;
 }
+
+export async function getAllAboutDistanceIndidcators() {
+  const data = await getXataClient()
+    .db.about_distance_indicator.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getAboutDistanceIndicatorsSearch(query: string) {
+  const data = await getXataClient()
+    .db.about_distance_indicator.filter({
+      $any: [
+        { code: { $contains: query.toUpperCase() } },
+        { description: { $contains: query.toUpperCase() } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllGuaranteedIndicators() {
+  const data = await getXataClient()
+    .db.guaranteed_indicators.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getGuaranteedIndicatorsSearch(query: string) {
+  const data = await getXataClient()
+    .db.guaranteed_indicators.filter({
+      $any: [
+        { code: { $contains: query.toUpperCase() } },
+        { description: { $contains: query.toUpperCase() } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
