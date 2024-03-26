@@ -38,7 +38,7 @@ export default function Tracks() {
       <div className="grid justify-center text-center py-5">
         <Form>
           <input
-            className="text-center border-2 rounded-lg border-blue-600 text-blue-600 placeholder-blue-600 py-1"
+            className="text-center border-2 rounded-lg border-blue-600 text-blue-600 placeholder-blue-600 py-1 px-2"
             type="text"
             name="query"
             id="query"
