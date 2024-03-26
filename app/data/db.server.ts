@@ -6,10 +6,10 @@ export async function getTracksSearch(query: string) {
   const data = await getXataClient()
     .db.tracks.filter({
       $any: [
-        { track_id: { $contains: query.toUpperCase() } },
-        { country_code: { $contains: query.toUpperCase() } },
-        { track_description: { $contains: query.toUpperCase() } },
-        { state_providence: { $contains: query.toUpperCase() } },
+        { track_id: { $iContains: query } },
+        { country_code: { $iContains: query } },
+        { track_description: { $iContains: query } },
+        { state_providence: { $iContains: query } },
       ],
     })
     .sort("country_code", "asc")
@@ -36,10 +36,10 @@ export async function getTrainingCenterSearch(query: string) {
   const data = await getXataClient()
     .db.training_centers.filter({
       $any: [
-        { training_center_id: { $contains: query.toUpperCase() } },
-        { country_code: { $contains: query.toUpperCase() } },
-        { training_center_name: { $contains: query.toUpperCase() } },
-        { state_providence: { $contains: query.toUpperCase() } },
+        { training_center_id: { $iContains: query } },
+        { country_code: { $iContains: query } },
+        { training_center_name: { $iContains: query } },
+        { state_providence: { $iContains: query } },
       ],
     })
     .sort("country_code", "asc")
@@ -58,8 +58,8 @@ export async function getAboutDistanceIndicatorsSearch(query: string) {
   const data = await getXataClient()
     .db.about_distance_indicator.filter({
       $any: [
-        { code: { $contains: query.toUpperCase() } },
-        { description: { $contains: query.toUpperCase() } },
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
       ],
     })
     .sort("code", "asc")
@@ -77,8 +77,8 @@ export async function getGuaranteedIndicatorsSearch(query: string) {
   const data = await getXataClient()
     .db.guaranteed_indicators.filter({
       $any: [
-        { code: { $contains: query.toUpperCase() } },
-        { description: { $contains: query.toUpperCase() } },
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
       ],
     })
     .sort("code", "asc")
