@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1n9oqcjnnfkpksb57g",
+  "parentID": "mig_co1n9nvs1mg5mpe9m9f0",
+  "checksum": "1:d2f88d1f286c251569786cd5e7b442bfbaf329d8ba19e8593f146eced8d8b5f7",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "string"
+        },
+        "table": "gate_indicators"
+      }
+    }
+  ]
+}

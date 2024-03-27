@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1n5b9v80nc4lf4p0pg",
+  "parentID": "mig_co1n59pv80nc4lf4p0og",
+  "checksum": "1:18c5a1c02f9ae402bb325028a6430f10788936ca4f1bab322a5112e9e560e058",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "string"
+        },
+        "table": "race_breed_types"
+      }
+    }
+  ]
+}

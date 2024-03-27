@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1nu9pv80nc4lf4p2d0",
+  "parentID": "mig_co1nu92cjnnfkpksb6tg",
+  "checksum": "1:7474700172ca7f9c09a0db069d6de0c5fc740a3d13be0a9c1cf601fe9f0f08cf",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "track_conditions"
+      }
+    }
+  ]
+}

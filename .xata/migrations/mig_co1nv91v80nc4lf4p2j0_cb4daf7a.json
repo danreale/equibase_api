@@ -1,0 +1,14 @@
+{
+  "id": "mig_co1nv91v80nc4lf4p2j0",
+  "parentID": "mig_co1nv7hv80nc4lf4p2i0",
+  "checksum": "1:cb4daf7a814b02048c8018e7affc238749ad32ecfd0770683fb8d71791631392",
+  "operations": [
+    {
+      "renameColumn": {
+        "newName": "description",
+        "oldName": "descriptipon",
+        "table": "weather_types"
+      }
+    }
+  ]
+}

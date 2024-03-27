@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1nvrqcjnnfkpksb790",
+  "parentID": "mig_co1nvqhv80nc4lf4p2q0",
+  "checksum": "1:7d9aec78ece1eb31e9d6b98f3226f51908ff418156c811a444edc0f6bb6899b5",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "string"
+        },
+        "table": "workout_types"
+      }
+    }
+  ]
+}

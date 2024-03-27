@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1nsaqcjnnfkpksb6a0",
+  "parentID": "mig_co1ns7pv80nc4lf4p260",
+  "checksum": "1:e9afad6cf47e3c88350bf5eb7cc6dc270336952df71c22c0085047bba06698c8",
+  "operations": [
+    {
+      "addTable": {
+        "table": "scratch_reasons"
+      }
+    }
+  ]
+}

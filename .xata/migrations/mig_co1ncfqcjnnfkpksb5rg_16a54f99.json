@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1ncfqcjnnfkpksb5rg",
+  "parentID": "mig_co1ncdqcjnnfkpksb5q0",
+  "checksum": "1:16a54f99a6ba3cd5046a6f4da0b81c77a9d6b398119a1f5a3d1b2f7608279dbd",
+  "operations": [
+    {
+      "addTable": {
+        "table": "race_restrictions"
+      }
+    }
+  ]
+}

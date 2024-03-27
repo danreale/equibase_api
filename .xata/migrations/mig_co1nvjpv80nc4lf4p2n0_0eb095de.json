@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1nvjpv80nc4lf4p2n0",
+  "parentID": "mig_co1nvfqcjnnfkpksb76g",
+  "checksum": "1:0eb095de4d99c361b4aaf40082cf85f366268fb85d08e20fed2a21d4a7b349d0",
+  "operations": [
+    {
+      "addTable": {
+        "table": "won_descriptions"
+      }
+    }
+  ]
+}

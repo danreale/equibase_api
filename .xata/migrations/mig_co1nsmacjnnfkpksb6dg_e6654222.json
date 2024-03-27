@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1nsmacjnnfkpksb6dg",
+  "parentID": "mig_co1nsdicjnnfkpksb6c0",
+  "checksum": "1:e665422296d51dfb8289c98250d65b7bf49974a32b722e04cb7fd1f08fccff8e",
+  "operations": [
+    {
+      "addTable": {
+        "table": "sex_restrictions"
+      }
+    }
+  ]
+}

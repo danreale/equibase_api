@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1ntiicjnnfkpksb6n0",
+  "parentID": "mig_co1nthpv80nc4lf4p2a0",
+  "checksum": "1:464566ed1fe24b98a0e22a429671c0c4a2fbf6cbce7a853d8b2b81794f455343",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "string"
+        },
+        "table": "foreign_race_summary_types"
+      }
+    }
+  ]
+}

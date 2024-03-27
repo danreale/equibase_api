@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1nt01v80nc4lf4p290",
+  "parentID": "mig_co1nsupv80nc4lf4p280",
+  "checksum": "1:bf0356535a601024227a4059decbed1ee5e269aeab853435884e5e4d6d940ef7",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "string"
+        },
+        "table": "people_sources"
+      }
+    }
+  ]
+}

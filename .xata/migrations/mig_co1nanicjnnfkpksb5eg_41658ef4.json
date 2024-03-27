@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1nanicjnnfkpksb5eg",
+  "parentID": "mig_co1namhv80nc4lf4p1kg",
+  "checksum": "1:41658ef42b10fc31606105f7c2c232470325769084f8a30c957b8bdf3c9ac6a1",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "margins"
+      }
+    }
+  ]
+}

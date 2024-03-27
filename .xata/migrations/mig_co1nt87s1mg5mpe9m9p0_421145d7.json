@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1nt87s1mg5mpe9m9p0",
+  "parentID": "mig_co1nt6qcjnnfkpksb6ig",
+  "checksum": "1:421145d714da20956b3b0ff70c7a9190b4132aa68c40ae3e74a1048d96dcf74c",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "string"
+        },
+        "table": "race_summary_types"
+      }
+    }
+  ]
+}

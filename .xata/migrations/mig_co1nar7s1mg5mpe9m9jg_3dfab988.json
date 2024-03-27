@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1nar7s1mg5mpe9m9jg",
+  "parentID": "mig_co1naq7s1mg5mpe9m9ig",
+  "checksum": "1:3dfab98850d272b526a6b8e96d7265930f424c7e8931990149137e62e78efa07",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "medications"
+      }
+    }
+  ]
+}

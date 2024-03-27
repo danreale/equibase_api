@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1moffs1mg5mpe9m970",
+  "parentID": "mig_co1moa9v80nc4lf4p0e0",
+  "checksum": "1:cdbc33b8e4ea8a1e0b81aa4d9b0893780780f8abce64f63e3ac4194294e350f6",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "age_restrictions"
+      }
+    }
+  ]
+}

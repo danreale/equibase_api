@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1n9thv80nc4lf4p1h0",
+  "parentID": "mig_co1n9oqcjnnfkpksb57g",
+  "checksum": "1:7006bbf2a2df78e2640efa972df4698c130e6db83a33364c1c49ff78507a1e20",
+  "operations": [
+    {
+      "addTable": {
+        "table": "horse_colors"
+      }
+    }
+  ]
+}

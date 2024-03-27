@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1n8hacjnnfkpksb53g",
+  "parentID": "mig_co1n8fpv80nc4lf4p1b0",
+  "checksum": "1:bc23b9865a8ca969624588ee98eea51b66a4f8241022567a7ffd0301afbf5b6f",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "string"
+        },
+        "table": "eligibility_types"
+      }
+    }
+  ]
+}

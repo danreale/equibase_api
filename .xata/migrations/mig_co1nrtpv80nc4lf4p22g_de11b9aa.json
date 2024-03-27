@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1nrtpv80nc4lf4p22g",
+  "parentID": "mig_co1nrsqcjnnfkpksb67g",
+  "checksum": "1:de11b9aa9874b0985ea837cdf7f5f7cff49e983070ccecf707bb90a2f7618171",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "rider_types"
+      }
+    }
+  ]
+}

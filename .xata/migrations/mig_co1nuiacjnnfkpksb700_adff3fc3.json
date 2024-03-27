@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1nuiacjnnfkpksb700",
+  "parentID": "mig_co1nue1v80nc4lf4p2e0",
+  "checksum": "1:adff3fc3e036386fc1c91352269ece3a90217da3406a48d9fcaa724a2fc1c278",
+  "operations": [
+    {
+      "addTable": {
+        "table": "track_records"
+      }
+    }
+  ]
+}

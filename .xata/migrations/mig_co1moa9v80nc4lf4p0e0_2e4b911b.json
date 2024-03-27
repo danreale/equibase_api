@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1moa9v80nc4lf4p0e0",
+  "parentID": "mig_co1bp9ntud90sggr4pjg",
+  "checksum": "1:2e4b911bfcda661ee407f1643abba6823c42de8e3b3f4983149274a5b59f8c05",
+  "operations": [
+    {
+      "addTable": {
+        "table": "age_restrictions"
+      }
+    }
+  ]
+}

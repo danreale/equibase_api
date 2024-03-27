@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1n851v80nc4lf4p16g",
+  "parentID": "mig_co1n81icjnnfkpksb51g",
+  "checksum": "1:956f9b6f93b0af2b760f1f2af492a943bc1aa4f416b987ee9981631ca25edc2f",
+  "operations": [
+    {
+      "addTable": {
+        "table": "dog_indicators"
+      }
+    }
+  ]
+}

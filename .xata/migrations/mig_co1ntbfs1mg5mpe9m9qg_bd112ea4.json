@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1ntbfs1mg5mpe9m9qg",
+  "parentID": "mig_co1nt87s1mg5mpe9m9p0",
+  "checksum": "1:bd112ea432ed5c63e0fdefce554793a7e07a8a73e22163574d681a1b2bda6237",
+  "operations": [
+    {
+      "addTable": {
+        "table": "domestic_race_summary_types"
+      }
+    }
+  ]
+}

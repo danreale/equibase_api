@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1n67vs1mg5mpe9m990",
+  "parentID": "mig_co1n672cjnnfkpksb4r0",
+  "checksum": "1:b43caf994cd2d1183d370a2ee66e82ba9422ba581f5c4f1210c493c39bd2af29",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "course_types"
+      }
+    }
+  ]
+}

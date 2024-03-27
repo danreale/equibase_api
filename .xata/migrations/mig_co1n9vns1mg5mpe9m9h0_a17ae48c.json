@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1n9vns1mg5mpe9m9h0",
+  "parentID": "mig_co1n9uns1mg5mpe9m9g0",
+  "checksum": "1:a17ae48c0262a2e4545db4f3c6611ad00b1376bc5296171709f8fa55a4b0e545",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "string"
+        },
+        "table": "horse_colors"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1n5d1v80nc4lf4p0r0",
+  "parentID": "mig_co1n5b9v80nc4lf4p0pg",
+  "checksum": "1:2cb98f493dac2b8d195bd2f92f941bf3f1db595f6b0f82190ce99a9b9055f953",
+  "operations": [
+    {
+      "addTable": {
+        "table": "starter_breed_types"
+      }
+    }
+  ]
+}

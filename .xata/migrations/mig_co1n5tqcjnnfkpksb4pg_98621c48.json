@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1n5tqcjnnfkpksb4pg",
+  "parentID": "mig_co1n5sqcjnnfkpksb4og",
+  "checksum": "1:98621c4818e8d4f2b2e200a45effad5a4d95073042349f5e1c9c73dc87a459dd",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "string"
+        },
+        "table": "coupled_indicators"
+      }
+    }
+  ]
+}

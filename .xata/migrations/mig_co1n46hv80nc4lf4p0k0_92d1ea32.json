@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1n46hv80nc4lf4p0k0",
+  "parentID": "mig_co1n3upv80nc4lf4p0ig",
+  "checksum": "1:92d1ea32d2853e2e58462fe52e95ab68932bd59d02a7144ee8295d279220cf11",
+  "operations": [
+    {
+      "addTable": {
+        "table": "attendance_types"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1naq7s1mg5mpe9m9ig",
+  "parentID": "mig_co1naoicjnnfkpksb5fg",
+  "checksum": "1:9fcf7b9d2dd65e3c6bc96dbeb3bed087ebb37986aeb128e501b91ef0ee08d924",
+  "operations": [
+    {
+      "addTable": {
+        "table": "medications"
+      }
+    }
+  ]
+}

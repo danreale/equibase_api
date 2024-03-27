@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1nv3icjnnfkpksb730",
+  "parentID": "mig_co1nv2ns1mg5mpe9m9ug",
+  "checksum": "1:5e24cfe6e13f085802e5835b0232c668734d7ce84a0916560981c61ddf3fa549",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "wager_types"
+      }
+    }
+  ]
+}

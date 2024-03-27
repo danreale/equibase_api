@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1nccqcjnnfkpksb5p0",
+  "parentID": "mig_co1ncc2cjnnfkpksb5o0",
+  "checksum": "1:c46276e202e439c87f8e30b0b00044fabd05a8a317cc0687c3647361d2bb5946",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "race_grades"
+      }
+    }
+  ]
+}

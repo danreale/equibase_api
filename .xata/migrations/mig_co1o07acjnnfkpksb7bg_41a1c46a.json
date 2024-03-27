@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1o07acjnnfkpksb7bg",
+  "parentID": "mig_co1o03icjnnfkpksb7ag",
+  "checksum": "1:41a1c46acefd42c26925eb9f372548ae4bdb5dfa310523d1383a41fed87227f2",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "conditions_of_races"
+      }
+    }
+  ]
+}

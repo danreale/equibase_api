@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1nv6hv80nc4lf4p2h0",
+  "parentID": "mig_co1nv62cjnnfkpksb75g",
+  "checksum": "1:2439eb3cc474f168ca865e43272980a71bc284177bc052995eaa51a1ce9f4395",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "weather_types"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1n5ohv80nc4lf4p100",
+  "parentID": "mig_co1n5n1v80nc4lf4p0v0",
+  "checksum": "1:2d2d451e40435893f7ee2a52d0b5251926db4fefc79fe6dfd3ec08b0f5465f96",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "card_ids"
+      }
+    }
+  ]
+}

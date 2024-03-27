@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1nc01v80nc4lf4p1p0",
+  "parentID": "mig_co1nbv2cjnnfkpksb5mg",
+  "checksum": "1:8aa6d294b056c98d7833d8b3333008f7dc6a2dc82198522320eb075d53a98dd7",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "purse_enhancements"
+      }
+    }
+  ]
+}

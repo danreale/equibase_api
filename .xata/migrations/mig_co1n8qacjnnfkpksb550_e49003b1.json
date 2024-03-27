@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1n8qacjnnfkpksb550",
+  "parentID": "mig_co1n8ofs1mg5mpe9m9e0",
+  "checksum": "1:e49003b10c29ddd368c35d4a181d4c9b08b52345e97502da30fe82a6307b5ee3",
+  "operations": [
+    {
+      "addTable": {
+        "table": "equipment_results"
+      }
+    }
+  ]
+}

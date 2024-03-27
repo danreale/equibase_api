@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1nup9v80nc4lf4p2f0",
+  "parentID": "mig_co1nuofs1mg5mpe9m9t0",
+  "checksum": "1:af82a9df5f0bdc00c1fc2b69080222f208ccced432c5f591375414436298ac85",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "people_types"
+      }
+    }
+  ]
+}

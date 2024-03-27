@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1n5n1v80nc4lf4p0v0",
+  "parentID": "mig_co1n5f9v80nc4lf4p0tg",
+  "checksum": "1:a7bacbd30cfd249ea49b26e5ce5bfad75300599e1750839f8b31f03455f2e4b8",
+  "operations": [
+    {
+      "addTable": {
+        "table": "card_ids"
+      }
+    }
+  ]
+}

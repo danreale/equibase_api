@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1nv62cjnnfkpksb75g",
+  "parentID": "mig_co1nv4icjnnfkpksb740",
+  "checksum": "1:fe9a19c6a9c201f0f3bccc6616a566e251b3cf4bfd0ba567b130855992c7ff0e",
+  "operations": [
+    {
+      "addTable": {
+        "table": "weather_types"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1nsu2cjnnfkpksb6g0",
+  "parentID": "mig_co1nsoqcjnnfkpksb6eg",
+  "checksum": "1:b5bc52303a69a55e1498f5d5537a3c165ba4e1c5ead99eb68fa43db8a83539e9",
+  "operations": [
+    {
+      "addTable": {
+        "table": "people_sources"
+      }
+    }
+  ]
+}

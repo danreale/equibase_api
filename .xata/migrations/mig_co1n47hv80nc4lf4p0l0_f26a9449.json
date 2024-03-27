@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1n47hv80nc4lf4p0l0",
+  "parentID": "mig_co1n46hv80nc4lf4p0k0",
+  "checksum": "1:f26a944938cbcd130d8eb216cc6f76d4a7e178bffb4d8f0dc07028914a98c042",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "attendance_types"
+      }
+    }
+  ]
+}

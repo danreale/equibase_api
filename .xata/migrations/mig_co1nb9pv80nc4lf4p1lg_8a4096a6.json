@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1nb9pv80nc4lf4p1lg",
+  "parentID": "mig_co1nb92cjnnfkpksb5h0",
+  "checksum": "1:8a4096a696da07b677e8aca0aeb64e84c06eae69f3c44733bcdc406f3d830dbc",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "non_betting_indicators"
+      }
+    }
+  ]
+}

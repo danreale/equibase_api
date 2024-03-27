@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1ntoicjnnfkpksb6og",
+  "parentID": "mig_co1ntiicjnnfkpksb6n0",
+  "checksum": "1:42ac707cd4b7d1d8741f7dd96a93019e5cc26baad1eb7bc0ef9b72f640b0da6e",
+  "operations": [
+    {
+      "addTable": {
+        "table": "race_summary_surface_types"
+      }
+    }
+  ]
+}

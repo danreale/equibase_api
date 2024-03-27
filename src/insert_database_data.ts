@@ -29,3 +29,28 @@ import * as parameters from "./parameters";
 
 // const countries = await xata.db.countries.create(parameters.COUNTRY_CODES);
 // console.log("Countries", countries.length);
+
+const age_restrictions = await xata.db.age_restrictions.create(
+  parameters.AGE_RESTRICTIONS
+);
+console.log("Age Restrictions", age_restrictions.length);
+
+const apprentice_types = await xata.db.apprentice_types.create(
+  parameters.APPRENTICE_TYPES
+);
+console.log("Age Restrictions", apprentice_types.length);
+
+const attendance_types = await xata.db.attendance_types.create(
+  parameters.ATTENDANCE_TYPES
+);
+console.log("Age Restrictions", attendance_types.length);
+
+const race_breed_types = await xata.db.race_breed_types.create(
+  parameters.RACE_BREED_TYPES
+);
+console.log("Race Breed Types", race_breed_types.length);
+
+const starter_breed_types = await xata.db.starter_breed_types.create(
+  parameters.STARTER_BREED_TYPES
+);
+console.log("Starter Breed Types", starter_breed_types.length);

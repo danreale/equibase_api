@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1nue1v80nc4lf4p2e0",
+  "parentID": "mig_co1nuaicjnnfkpksb6ug",
+  "checksum": "1:e6d7dd037124016d08bf72ef7693fad3cb0314209f91b851f335986f9098303b",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "foreign",
+          "type": "bool"
+        },
+        "table": "track_conditions"
+      }
+    }
+  ]
+}

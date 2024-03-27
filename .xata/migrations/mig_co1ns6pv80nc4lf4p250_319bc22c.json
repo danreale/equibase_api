@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1ns6pv80nc4lf4p250",
+  "parentID": "mig_co1ns59v80nc4lf4p240",
+  "checksum": "1:319bc22cbda183b634eee95debd499a4cf7da29da6bfec9995b3bbce9b28db36",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "scratch_indicators"
+      }
+    }
+  ]
+}

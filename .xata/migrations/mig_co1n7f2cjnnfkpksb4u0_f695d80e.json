@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1n7f2cjnnfkpksb4u0",
+  "parentID": "mig_co1n7d9v80nc4lf4p150",
+  "checksum": "1:f695d80eba9d11402a1fa0117618ab2e4ba0482f4f5bba1442e610d9bf7ac95a",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "string"
+        },
+        "table": "distance_units"
+      }
+    }
+  ]
+}

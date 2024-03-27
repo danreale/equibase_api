@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1n5rqcjnnfkpksb4ng",
+  "parentID": "mig_co1n5ppv80nc4lf4p110",
+  "checksum": "1:11bd0c38c3f859e0c6f7f546c79a75946c60a521f3f90aba600d68c69ff4ad4e",
+  "operations": [
+    {
+      "addTable": {
+        "table": "coupled_indicators"
+      }
+    }
+  ]
+}

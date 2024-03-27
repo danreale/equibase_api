@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1n672cjnnfkpksb4r0",
+  "parentID": "mig_co1n5tqcjnnfkpksb4pg",
+  "checksum": "1:fa08258cb6402813b7da7654461f71f33214b0684f75ef77c495f7182144ab68",
+  "operations": [
+    {
+      "addTable": {
+        "table": "course_types"
+      }
+    }
+  ]
+}

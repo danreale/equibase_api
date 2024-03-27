@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1n81icjnnfkpksb51g",
+  "parentID": "mig_co1n80acjnnfkpksb50g",
+  "checksum": "1:fe0e1918c22205fcbb6fb4c9ead444ccc9bc8a51c7a436d6d373d5fd39434ad1",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "string"
+        },
+        "table": "division_indicators"
+      }
+    }
+  ]
+}

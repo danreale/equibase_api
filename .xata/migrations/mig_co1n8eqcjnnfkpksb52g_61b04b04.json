@@ -1,0 +1,13 @@
+{
+  "id": "mig_co1n8eqcjnnfkpksb52g",
+  "parentID": "mig_co1n8cpv80nc4lf4p1a0",
+  "checksum": "1:61b04b04dad42de947a182f5791a738ec9848e1e77a0f0d09bfe3bbeaf183d1d",
+  "operations": [
+    {
+      "renameTable": {
+        "newName": "eligibility_types",
+        "oldName": "eligibility_type"
+      }
+    }
+  ]
+}

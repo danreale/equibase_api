@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1nu0qcjnnfkpksb6r0",
+  "parentID": "mig_co1ntqicjnnfkpksb6pg",
+  "checksum": "1:f81cf7b3291c7f3321abbd6e891ecd95447697fb4325cdc40f1757eac43cc58b",
+  "operations": [
+    {
+      "addTable": {
+        "table": "timing_methods"
+      }
+    }
+  ]
+}

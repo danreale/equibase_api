@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1n3i2cjnnfkpksb4hg",
+  "parentID": "mig_co1moghv80nc4lf4p0f0",
+  "checksum": "1:47e36c2a4550841b9d45faf29dd3c11aeb2646015afa44bb0febf47de48548c2",
+  "operations": [
+    {
+      "addTable": {
+        "table": "apprentice_types"
+      }
+    }
+  ]
+}

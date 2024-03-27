@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1nvlpv80nc4lf4p2p0",
+  "parentID": "mig_co1nvkhv80nc4lf4p2o0",
+  "checksum": "1:e0bbbc86011032ba51ee1aae7252cc51c94f44a375012c24961a7481de565627",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "string"
+        },
+        "table": "won_descriptions"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1nvehv80nc4lf4p2lg",
+  "parentID": "mig_co1nvdhv80nc4lf4p2kg",
+  "checksum": "1:54b8c9bbc4432de570b0a9b339f6420d8d7433d24e4324c4dabeea37f567a373",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "wind_directions"
+      }
+    }
+  ]
+}

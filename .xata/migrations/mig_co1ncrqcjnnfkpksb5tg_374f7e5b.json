@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1ncrqcjnnfkpksb5tg",
+  "parentID": "mig_co1ncqhv80nc4lf4p200",
+  "checksum": "1:374f7e5bafa641cc9ddfc7c59efe14554a515a8075968864c97be0ed61136f0a",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "code",
+          "type": "string"
+        },
+        "table": "race_type_thoroughbred"
+      }
+    }
+  ]
+}

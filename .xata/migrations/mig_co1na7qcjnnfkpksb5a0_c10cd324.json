@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1na7qcjnnfkpksb5a0",
+  "parentID": "mig_co1na69v80nc4lf4p1j0",
+  "checksum": "1:c10cd324c6693f600eb869593731d967e88d06ccea5488d28f8881def633f68d",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "string"
+        },
+        "table": "horse_sexes"
+      }
+    }
+  ]
+}

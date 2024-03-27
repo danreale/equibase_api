@@ -1,0 +1,12 @@
+{
+  "id": "mig_co1ncv2cjnnfkpksb600",
+  "parentID": "mig_co1ncsqcjnnfkpksb5ug",
+  "checksum": "1:913d71f92d9f3fd5ec026d936342b48b3bb0c36864decb9444f393653f2b5910",
+  "operations": [
+    {
+      "addTable": {
+        "table": "race_type_quarter_horse"
+      }
+    }
+  ]
+}

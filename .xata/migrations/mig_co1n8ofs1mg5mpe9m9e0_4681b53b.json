@@ -1,0 +1,16 @@
+{
+  "id": "mig_co1n8ofs1mg5mpe9m9e0",
+  "parentID": "mig_co1n8n1v80nc4lf4p1dg",
+  "checksum": "1:4681b53b05c7ded73b6fdbca7258e8ced00c162b4da45e576f3e0ad7f2f02fca",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "description",
+          "type": "string"
+        },
+        "table": "equipment_entries"
+      }
+    }
+  ]
+}
