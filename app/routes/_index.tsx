@@ -37,6 +37,9 @@ export default function Index() {
               Guaranteed Indicators
             </Link>
           </li>
+          <li>
+            <Link to="/parameters/countries">Countries</Link>
+          </li>
         </ul>
       </div>
     </>

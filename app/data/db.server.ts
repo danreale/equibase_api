@@ -85,3 +85,27 @@ export async function getGuaranteedIndicatorsSearch(query: string) {
     .getAll();
   return data;
 }
+
+export async function getAllCountries() {
+  const data = await getXataClient()
+    .db.countries.sort("country_code", "asc")
+    .sort("state_providence", "asc")
+    .sort("description", "asc")
+    .getAll();
+  return data;
+}
+export async function getCountriesSearch(query: string) {
+  const data = await getXataClient()
+    .db.countries.filter({
+      $any: [
+        { description: { $iContains: query } },
+        { country_code: { $iContains: query } },
+        { state_providence: { $iContains: query } },
+      ],
+    })
+    .sort("country_code", "asc")
+    .sort("state_providence", "asc")
+    .sort("description", "asc")
+    .getAll();
+  return data;
+}
