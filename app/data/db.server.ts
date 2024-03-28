@@ -205,3 +205,39 @@ export async function getStarterBreedTypesSearch(query: string) {
     .getAll();
   return data;
 }
+
+export async function getAllCardIds() {
+  const data = await getXataClient().db.card_ids.sort("code", "asc").getAll();
+  return data;
+}
+export async function getCardIdsSearch(query: string) {
+  const data = await getXataClient()
+    .db.card_ids.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllCoupledIndicators() {
+  const data = await getXataClient()
+    .db.coupled_indicators.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getCoupledIndicatorsSearch(query: string) {
+  const data = await getXataClient()
+    .db.coupled_indicators.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
