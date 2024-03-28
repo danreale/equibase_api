@@ -109,3 +109,99 @@ export async function getCountriesSearch(query: string) {
     .getAll();
   return data;
 }
+
+export async function getAllAgeRestrictions() {
+  const data = await getXataClient()
+    .db.age_restrictions.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getAgeRestrictionsSearch(query: string) {
+  const data = await getXataClient()
+    .db.age_restrictions.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllApprenticeTypes() {
+  const data = await getXataClient()
+    .db.apprentice_types.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getApprenticeTypesSearch(query: string) {
+  const data = await getXataClient()
+    .db.apprentice_types.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+        { type: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllAttendanceTypes() {
+  const data = await getXataClient()
+    .db.attendance_types.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getAttendanceTypesSearch(query: string) {
+  const data = await getXataClient()
+    .db.attendance_types.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllRaceBreedTypes() {
+  const data = await getXataClient()
+    .db.race_breed_types.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getRaceBreedTypesSearch(query: string) {
+  const data = await getXataClient()
+    .db.race_breed_types.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllStarterBreedTypes() {
+  const data = await getXataClient()
+    .db.starter_breed_types.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getStarterBreedTypesSearch(query: string) {
+  const data = await getXataClient()
+    .db.starter_breed_types.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
