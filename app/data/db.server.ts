@@ -280,3 +280,78 @@ export async function getDistancesSearch(query: string) {
     .getAll();
   return data;
 }
+export async function getAllDistanceUnits() {
+  const data = await getXataClient()
+    .db.distance_units.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getDistanceUnitsSearch(query: string) {
+  const data = await getXataClient()
+    .db.distance_units.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllDivisionIndicators() {
+  const data = await getXataClient()
+    .db.division_indicators.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getDivisionIndicatorsSearch(query: string) {
+  const data = await getXataClient()
+    .db.division_indicators.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllDogIndicators() {
+  const data = await getXataClient()
+    .db.dog_indicators.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getDogIndicatorsSearch(query: string) {
+  const data = await getXataClient()
+    .db.dog_indicators.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllEligibilityTypes() {
+  const data = await getXataClient()
+    .db.eligibility_types.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getEligibilityTypesSearch(query: string) {
+  const data = await getXataClient()
+    .db.eligibility_types.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
