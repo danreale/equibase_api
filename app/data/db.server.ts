@@ -599,3 +599,250 @@ export async function getPurseEnhancementTypesSearch(query: string) {
     .getAll();
   return data;
 }
+
+export async function getAllRaceGrades() {
+  const data = await getXataClient()
+    .db.race_grades.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getRaceGradesSearch(query: string) {
+  const data = await getXataClient()
+    .db.race_grades.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllRaceRestrictions() {
+  const data = await getXataClient()
+    .db.race_restrictions.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getRaceRestrictionsSearch(query: string) {
+  const data = await getXataClient()
+    .db.race_restrictions.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllRaceTypeThoroughbred() {
+  const data = await getXataClient()
+    .db.race_type_thoroughbred.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getRaceTypeThoroughbredSearch(query: string) {
+  const data = await getXataClient()
+    .db.race_type_thoroughbred.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllRaceTypeQuarterHorse() {
+  const data = await getXataClient()
+    .db.race_type_quarter_horse.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getRaceTypeQuarterHorseSearch(query: string) {
+  const data = await getXataClient()
+    .db.race_type_quarter_horse.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllRiderTypes() {
+  const data = await getXataClient()
+    .db.rider_types.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getRiderTypesSearch(query: string) {
+  const data = await getXataClient()
+    .db.rider_types.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllScratchIndicators() {
+  const data = await getXataClient()
+    .db.scratch_indicators.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getScratchIndicatorsSearch(query: string) {
+  const data = await getXataClient()
+    .db.scratch_indicators.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllScratchReasons() {
+  const data = await getXataClient()
+    .db.scratch_reasons.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getScratchReasonsSearch(query: string) {
+  const data = await getXataClient()
+    .db.scratch_reasons.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllSexRestrictions() {
+  const data = await getXataClient()
+    .db.sex_restrictions.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getSexRestrictionsSearch(query: string) {
+  const data = await getXataClient()
+    .db.sex_restrictions.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllRaceSummaryTypes() {
+  const data = await getXataClient()
+    .db.race_summary_types.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getRaceSummaryTypesSearch(query: string) {
+  const data = await getXataClient()
+    .db.race_summary_types.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllDomesticRaceSummaryTypes() {
+  const data = await getXataClient()
+    .db.domestic_race_summary_types.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getDomesticRaceSummaryTypesSearch(query: string) {
+  const data = await getXataClient()
+    .db.domestic_race_summary_types.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllForeignRaceSummaryTypes() {
+  const data = await getXataClient()
+    .db.foreign_race_summary_types.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getForeignRaceSummaryTypesSearch(query: string) {
+  const data = await getXataClient()
+    .db.foreign_race_summary_types.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllRaceSummarySurfaceTypes() {
+  const data = await getXataClient()
+    .db.race_summary_surface_types.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getRaceSummarySurfaceTypesSearch(query: string) {
+  const data = await getXataClient()
+    .db.race_summary_surface_types.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllPeopleSources() {
+  const data = await getXataClient()
+    .db.people_sources.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getPeopleSourcesSearch(query: string) {
+  const data = await getXataClient()
+    .db.people_sources.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
