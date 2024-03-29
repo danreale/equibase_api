@@ -83,7 +83,7 @@ export default function Index() {
             <Link to="/parameters/equipmententries">Equipment Entries</Link>
           </li>
           <li>
-            <Link to="/parameters/equipmentresults">Countries</Link>
+            <Link to="/parameters/equipmentresults">Equipment Results</Link>
           </li>
           <li>
             <Link to="/parameters/gateindicators">Gate Indicators</Link>

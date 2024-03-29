@@ -355,3 +355,41 @@ export async function getEligibilityTypesSearch(query: string) {
     .getAll();
   return data;
 }
+
+export async function getAllEquipmentEntries() {
+  const data = await getXataClient()
+    .db.equipment_entries.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getEquipmentEntriesSearch(query: string) {
+  const data = await getXataClient()
+    .db.equipment_entries.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllEquipmentResults() {
+  const data = await getXataClient()
+    .db.equipment_results.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getEquipmentResultsSearch(query: string) {
+  const data = await getXataClient()
+    .db.equipment_results.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
