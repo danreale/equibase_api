@@ -241,3 +241,42 @@ export async function getCoupledIndicatorsSearch(query: string) {
     .getAll();
   return data;
 }
+
+export async function getAllCourseTypes() {
+  const data = await getXataClient()
+    .db.course_types.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getCourseTypesSearch(query: string) {
+  const data = await getXataClient()
+    .db.course_types.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getAllDistances() {
+  const data = await getXataClient()
+    .db.distances.sort("distance", "asc")
+    .getAll();
+  return data;
+}
+export async function getDistancesSearch(query: string) {
+  const data = await getXataClient()
+    .db.distances.filter({
+      $any: [
+        { distance_unit: { $iContains: query } },
+        { about: { $iContains: query } },
+        { long_description: { $iContains: query } },
+        { published_value: { $iContains: query } },
+      ],
+    })
+    .sort("distance", "asc")
+    .getAll();
+  return data;
+}
