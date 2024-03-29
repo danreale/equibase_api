@@ -393,3 +393,209 @@ export async function getEquipmentResultsSearch(query: string) {
     .getAll();
   return data;
 }
+
+export async function getAllGateIndicators() {
+  const data = await getXataClient()
+    .db.gate_indicators.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getGateIndicatorsSearch(query: string) {
+  const data = await getXataClient()
+    .db.gate_indicators.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllHorseColors() {
+  const data = await getXataClient()
+    .db.horse_colors.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getHorseColorsSearch(query: string) {
+  const data = await getXataClient()
+    .db.horse_colors.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+        { horse_type: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getAllHorseSexes() {
+  const data = await getXataClient()
+    .db.horse_sexes.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getHorseSexesSearch(query: string) {
+  const data = await getXataClient()
+    .db.horse_sexes.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllIncludePlusIndicators() {
+  const data = await getXataClient()
+    .db.include_plus_indicators.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getIncludePlusIndicatorsSearch(query: string) {
+  const data = await getXataClient()
+    .db.include_plus_indicators.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllMargins() {
+  const data = await getXataClient().db.margins.sort("code", "asc").getAll();
+  return data;
+}
+export async function getMarginsSearch(query: string) {
+  const data = await getXataClient()
+    .db.margins.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllMedications() {
+  const data = await getXataClient()
+    .db.medications.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getMedicationsSearch(query: string) {
+  const data = await getXataClient()
+    .db.medications.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllNonBettingIndicators() {
+  const data = await getXataClient()
+    .db.non_betting_indicators.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getNonBettingIndicatorsSearch(query: string) {
+  const data = await getXataClient()
+    .db.non_betting_indicators.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllOfficialIndicators() {
+  const data = await getXataClient()
+    .db.official_indicators.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getOfficialIndicatorsSearch(query: string) {
+  const data = await getXataClient()
+    .db.official_indicators.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getAllQualityIndicators() {
+  const data = await getXataClient()
+    .db.quality_indicators.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getQualityIndicatorsSearch(query: string) {
+  const data = await getXataClient()
+    .db.quality_indicators.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllPurseEnhancements() {
+  const data = await getXataClient()
+    .db.purse_enhancements.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getPurseEnhancementsSearch(query: string) {
+  const data = await getXataClient()
+    .db.purse_enhancements.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
+
+export async function getAllPurseEnhancementTypes() {
+  const data = await getXataClient()
+    .db.purse_enhancement_types.sort("code", "asc")
+    .getAll();
+  return data;
+}
+export async function getPurseEnhancementTypesSearch(query: string) {
+  const data = await getXataClient()
+    .db.purse_enhancement_types.filter({
+      $any: [
+        { code: { $iContains: query } },
+        { description: { $iContains: query } },
+      ],
+    })
+    .sort("code", "asc")
+    .getAll();
+  return data;
+}
